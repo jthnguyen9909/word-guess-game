@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Box Styling</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Word Guess Game</h1>
+    <button class="start-button">Start Game</button>
+  </header>
+
+  <main>
+    <section class="section" id="guess-section">
+      <div class="word-guess">J _ v _ S c r_ _t</div>
+    </section>
+
+    <section class="section" id="stats-container">
+      <div>
+        <div id="stats">
+          <div>
+            <h2 id="stats-header">Stats</h2>
+            <h3>Wins: <span id="user-wins">0</span></h3>
+            <h3>Losses: <span id="user-losses">0</span></h3>
+          </div>
+          <button id="reset">Reset</button>
+        </div>
+        <div id="timer">
+          <div class="timer-text">
+            <div class="timer-count">10</div>
+            <h3>seconds remaining</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
